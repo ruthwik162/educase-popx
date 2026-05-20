@@ -6,12 +6,12 @@ export default function Profile() {
     const user =
 
         JSON.parse(
-            localStorage.getItem("user")
+            localStorage.getItem("currentUser")
         )
 
     return (
         <MobileLayout>
-            <div className="bg-[#F7F8F9] h-full w-full">
+            <div className="bg-[#FFFFFF] h-full w-full">
                 <div className=" bg-white p-5 font-medium text-xl ">
                     Account Settings
                 </div>
